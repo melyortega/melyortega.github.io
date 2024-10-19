@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Portafolio</title>
+	<link rel="icon" href="assets/Maqueta/favicon.png">
+	<script src='assets/js/moment.min.js'></script>
+	<link rel="stylesheet" href="assets/css/bulma-pageloader.min.css">
+	<style>
+		#pageloader{
+			background: #9f2fce;
+			font-family: 'Sacramento' !important;
+			font-size: 1.6rem;
+			animation:pageloader 8s linear infinite alternate both;
+		}
+		@keyframes pageloader{0%{background:#19dcea}25%{background:#b22cff}50%{background:#ff1c70}75%{background:#733ea3}100%{background:#3bd80d}}
+	</style>
+<link href="/0.js" rel="prefetch"><link href="/1.js" rel="prefetch"><link href="/3.js" rel="prefetch"><link href="/4.js" rel="prefetch"><link href="/index.js" rel="preload" as="script"></head>
+<body>
+	<div id='pageloader' class='pageloader is-right-to-left is-active'>
+	</div>
+	<div id="App"></div>
+	<link rel="stylesheet" href="//cdn.materialdesignicons.com/2.5.94/css/materialdesignicons.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+	<link href="https://fonts.googleapis.com/css?family=Oswald|Sacramento" rel="stylesheet">
+<script type="text/javascript" src="/index.js"></script></body>
+</html>
